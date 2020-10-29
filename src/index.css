@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 480px){
+  body{ 
+    width: 100%;
+    margin: 0;
+  }
+  button{
+    color: white;
+    font-size: 1rem;
+  }
+}
